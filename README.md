@@ -72,7 +72,7 @@ Márcio Alexandre de Paiva Gil
 💻 Apaixonado por tecnologia, educação e automação inteligente
 📍 Rio de Janeiro, Brasil
 - 📧 Email: marciogil.dev@gmail.com
-- 🌐 Portfólio: meu-portfolio_profissional
+- 🌐 Portfólio: https://marciogil.github.io/meu-portfolio_profissional/
 
 📝 Licença
 Este projeto está sob a licença MIT — sinta-se à vontade para estudar, modificar e contribuir.
