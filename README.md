@@ -29,31 +29,33 @@ O Flask processa e executa os blocos em subprocessos isolados, garantindo segura
 
 Os resultados são retornados ao frontend e exibidos dinamicamente na interface.
 
-workflow-automation-system/
-├── backend/                     # Aplicação Flask (API REST)
-│   ├── app.py                   # Ponto de entrada principal do servidor
-│   ├── routes/                  # Rotas e controladores da API
-│   ├── services/                # Lógica de execução e integração
-│   ├── models/                  # Definição de dados e banco (SQLAlchemy)
-│   ├── utils/                   # Funções auxiliares (logs, validação etc.)
-│   └── requirements.txt         # Dependências do backend
+Arquitetura do Projeto workflow-automation-system/
 │
-├── frontend/                    # Aplicação React (interface visual)
+├── backend/                          # Aplicação Flask (API REST)
+│   ├── app.py                        # Ponto de entrada principal do servidor
+│   ├── routes/                       # Rotas e controladores da API
+│   ├── services/                     # Lógica de execução e integração
+│   ├── models/                       # Definição de dados e banco (SQLAlchemy)
+│   ├── utils/                        # Funções auxiliares (logs, validação, etc.)
+│   └── requirements.txt              # Dependências do backend
+│
+├── frontend/                         # Aplicação React (interface visual)
 │   ├── src/
-│   │   ├── components/          # Componentes reutilizáveis (Editor, Sidebar, Node)
-│   │   ├── pages/               # Páginas principais da interface
-│   │   ├── hooks/               # Hooks personalizados
-│   │   ├── services/            # Comunicação com o backend via Axios
-│   │   ├── App.js               # Estrutura e rotas principais
-│   │   └── index.js             # Ponto de entrada do React
-│   ├── package.json             # Dependências do frontend
+│   │   ├── components/               # Componentes reutilizáveis (Editor, Sidebar, Node)
+│   │   ├── pages/                    # Páginas principais da interface
+│   │   ├── hooks/                    # Hooks personalizados
+│   │   ├── services/                 # Comunicação com o backend via Axios
+│   │   ├── App.js                    # Estrutura e rotas principais
+│   │   └── index.js                  # Ponto de entrada do React
+│   ├── package.json                  # Dependências do frontend
 │   └── README.md
 │
-├── docs/                        # Imagens e documentação
+├── docs/                             # Imagens e documentação
 │   ├── screenshots/
 │   └── editor.png
 │
-└── README.md                    # Documentação principal do projeto
+└── README.md                         # Documentação principal do projeto
+
 
 
 🧠 Aprendizados e Objetivos
