@@ -18,39 +18,34 @@ Inspirado em ferramentas como n8n, Node-RED e Zapier, o sistema foca em educaç�
 - O Flask processa os blocos em subprocessos isolados, garantindo segurança.
 - Os resultados são retornados ao frontend e exibidos dinamicamente na interface.
 
-🛠️ Estrutura do Projeto
-Plain Text
-workflow-automation-project/
-├── workflow-automation/          # Frontend React
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── WorkflowEditor.jsx
-│   │   │   ├── CustomCodeNode.jsx
-│   │   │   ├── ActionNode.jsx
-│   │   │   └── ui/              # Componentes shadcn/ui
-│   │   ├── App.jsx
-│   │   ├── App.css
-│   │   └── main.jsx
-│   ├── public/
-│   ├── package.json
-│   └── vite.config.js
+```text
+Arquitetura do Projeto workflow-automation-system/
 │
-├── workflow-backend/             # Backend Flask
-│   ├── src/
-│   │   ├── models/
-│   │   │   └── workflow.py
-│   │   ├── routes/
-│   │   │   └── workflow.py
-│   │   ├── services/
-│   │   │   └── workflow_executor.py
-│   │   ├── database/
-│   │   │   └── app.db
-│   │   └── main.py
-│   ├── venv/
-│   └── requirements.txt
+├── backend/ # Aplicação Flask (API REST)
+│ ├── app.py # Ponto de entrada principal do servidor
+│ ├── routes/ # Rotas e controladores da API
+│ ├── services/ # Lógica de execução e integração
+│ ├── models/ # Definição de dados e banco (SQLAlchemy)
+│ ├── utils/ # Funções auxiliares (logs, validação, etc.)
+│ └── requirements.txt # Dependências do backend
 │
-└── README.md                     # Este arquivo
-
+├── frontend/ # Aplicação React (interface visual)
+│ ├── src/
+│ │ ├── components/ # Componentes reutilizáveis (Editor, Sidebar, Node)
+│ │ ├── pages/ # Páginas principais da interface
+│ │ ├── hooks/ # Hooks personalizados
+│ │ ├── services/ # Comunicação com o backend via Axios
+│ │ ├── App.js # Estrutura e rotas principais
+│ │ └── index.js # Ponto de entrada do React
+│ ├── package.json # Dependências do frontend
+│ └── README.md
+│
+├── docs/ # Imagens e documentação
+│ ├── screenshots/
+│ └── editor.png
+│
+└── README.md # Documentação principal do projeto
+```
 
 
 
