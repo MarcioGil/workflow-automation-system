@@ -71,7 +71,7 @@ Márcio Alexandre de Paiva Gil
 🎓 Estudante de Engenharia de Software
 💻 Apaixonado por tecnologia, educação e automação inteligente
 📍 Rio de Janeiro, Brasil
-- 📧 Email: marciogil.dev@gmail.com
+- 📧 Email: marciopaivagil@gmail.com
 - 🌐 Portfólio: https://marciogil.github.io/meu-portfolio_profissional/
 
 📝 Licença
