@@ -1,4 +1,3 @@
-Claro que sim, Márcio! Vamos deixar esse README bonito, organizado e com uma estrutura profissional que valorize seu projeto. Aqui está uma versão reformulada e bem estruturada:
 
 ⚙️ Workflow Automation System
 Sistema visual de automação de tarefas com React e Flask
