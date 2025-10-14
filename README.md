@@ -19,7 +19,8 @@ Inspirado em ferramentas como n8n, Node-RED e Zapier, o sistema foca em educaç�
 - O Flask processa os blocos em subprocessos isolados, garantindo segurança.
 - Os resultados são retornados ao frontend e exibidos dinamicamente na interface.
 
-🏗️ Estrutura do Projeto
+🏗️ Estrutura do 
+
 workflow-automation-system/
 ├── backend/                  # Aplicação Flask (API REST)
 │   ├── app.py                # Ponto de entrada do servidor
